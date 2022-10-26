@@ -23,7 +23,7 @@ const useWebsoket = (getWebSocket) => {
     };
 
 
-  return {total, dataPoints};
+  return {total, dataPoints, status};
 }
 
 export default useWebsoket;

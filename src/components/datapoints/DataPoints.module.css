@@ -1,3 +1,31 @@
 .datapointsWrapper {
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.grid {
+    background-color: white;
+    border: 1px;
+    width: 550px;
+    height: 600px;
+    max-height: 600px;
+    overflow: scroll;
+}
+.headerRow {
+    background-color: #e8e8e8;
+}
+
+.list {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.list li {
+    display: flex;
+}
+
+.list li div {
+    margin: 10px;
 }

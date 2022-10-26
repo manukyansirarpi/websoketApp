@@ -8,7 +8,13 @@ const UserDetails = ({getWebSocket}) => {
       
     return (
         <div className={classes.userDetailsWrapper}> 
-            total is {total}
+            <div>
+                <div className={classes.title}> Total Data Count </div>
+                <div className={classes.data}> {total} </div>
+            </div>
+            <div>
+                <div className={classes.status}>WS: <span>Connected </span></div>
+            </div>
         </div>
     );
 }

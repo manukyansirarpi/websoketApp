@@ -1,3 +1,19 @@
 .userDetailsWrapper {
-    background-color: cadetblue;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.title {
+    font-size: 22px;
+}
+
+.data {
+    font-size: 30px;
+    color: #084530;
+    font-weight: bold;
+}
+
+.status span {
+    color: #1f9618d1;
 }
